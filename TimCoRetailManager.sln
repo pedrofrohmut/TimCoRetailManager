@@ -1,18 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRMDataManager", "TRMDataManager\TRMDataManager.csproj", "{DBC7FD65-548D-4C15-8CDE-B44A8315A8CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBC7FD65-548D-4C15-8CDE-B44A8315A8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC7FD65-548D-4C15-8CDE-B44A8315A8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC7FD65-548D-4C15-8CDE-B44A8315A8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC7FD65-548D-4C15-8CDE-B44A8315A8CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB02EF2F-9421-4E5F-A20A-DEE896C44304}
 	EndGlobalSection
 EndGlobal
