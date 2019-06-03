@@ -1,11 +1,11 @@
 # MY IGNORES #
 
 # >> Exceptions
-!TRMDataManager/Content/Site.css
+# !TRMDataManager/Content/Site.css
 
 # >> Ignores
 TRMDataManager/Scripts/
-TRMDataManager/Content/
+TRMDataManager/Content/bootstrap*
 
 
 #################################################################################
