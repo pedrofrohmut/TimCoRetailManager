@@ -1,0 +1,12 @@
+﻿CREATE TABLE dbo.SaleDetail
+(
+  Id INT NOT NULL PRIMARY KEY IDENTITY,
+  SaleId INT NOT NULL DEFAULT 0,
+  ProductId INT NOT NULL DEFAULT 0,
+  Quantity INT NOT NULL DEFAULT 1,
+  PurchasePrice MONEY NOT NULL DEFAULT 0,
+  Tax MONEY NOT NULL DEFAULT 0,
+  CreatedAt DATETIME2 NOT NULL DEFAULT getutcdate()
+  --CONSTRAINT fk_SaleDetail_ref_Sail FOREIGN KEY (SaleId) REFERENCES dbo.Sale(Id),
+  --CONSTRAINT fk_SaleDetail_ref_Product FOREIGN KEY (ProductId) REFERENCES dbo.Product(id)
+)

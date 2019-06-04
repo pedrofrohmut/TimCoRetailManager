@@ -1,0 +1,9 @@
+﻿CREATE TABLE dbo.Product
+(
+  Id INT NOT NULL PRIMARY KEY IDENTITY,
+  ProductName NVARCHAR(255) NOT NULL DEFAULT 'No name',
+  Description NVARCHAR(MAX) NOT NULL DEFAULT 'No Description',
+  RetailPrice MONEY NOT NULL DEFAULT 0,
+  CreatedAt DATETIME2 NOT NULL DEFAULT getutcdate(),
+  LastModified DATETIME2 NOT NULL DEFAULT getutcdate()
+)
